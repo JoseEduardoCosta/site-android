@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'robo';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #84E1AD;
+}
+
+header {
+
+    margin: 0px;
+    text-align: center;
+    background-image: linear-gradient(180deg, #1b5f38, #38C979);
+    color: white;
+    padding: 50px 0 0 0;
+}
+
+.titulo {
+    font-size: 3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+header p {
+    font-size: 1.3em;
+}
+
+nav {
+
+
+    padding: 10px;
+    text-align: left;
+    margin-top: 70px;
+
+
+}
+
+.menu {
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+
+}
+
+.menu:hover {
+
+    border-top: 5px solid white;
+    color: black;
+
+}
+
+
+main {
+
+    margin: 0 150px auto 150px;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+
+}
+
+main h1 {
+    margin: 0;
+    padding-top: 20px;
+}
+
+
+
+h1 {
+    font-family: robo;
+    font-size: 2em;
+    padding-left: 20px;
+    color: #276644;
+}
+
+.texto {
+    text-align: justify;
+    text-indent: 40px;
+    padding: 5px 15px 20px 15px;
+}
+
+h2 {
+    font-family: robo;
+    background-image: linear-gradient(40deg, rgba(70, 212, 70, 0.521), white);
+    margin-left: 10px;
+    padding-left: 5px;
+    color: #276644;
+}
+
+.robos {
+    display: block;
+    margin: auto;
+    width: 100%;
+
+}
+
+a {
+    color: #276644;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.irina {
+    display: block;
+    width: 97%;
+    margin: auto;
+}
+
+div {
+
+    text-align: center;
+    padding: 30px 0;
+    background-color: #1A5C38;
+}
+
+
+h3 {
+    background-color: #2FA866;
+    margin: 0;
+    color: white;
+    padding-left: 20px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.borda {
+
+    margin: 20px;
+    background-color: #CEF2DE;
+    border-radius: 15px;
+    padding-bottom: 5px;
+
+}
+
+ul {
+    display: inline-block;
+
+
+
+}
+
+.lista2 {
+    margin: 20px 0 20px 250px;
+
+}
+
+
+
+
+footer {
+    background-color: #1b5f38;
+    padding: 10px;
+    margin-top: 10;
+    color: white;
+    text-align: center;
+}
